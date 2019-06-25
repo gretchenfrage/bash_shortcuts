@@ -1,0 +1,2 @@
+alias kubeshell='~/shortcut/scripts/kubeshell.sh' # get a shell into kubernetes pod
+alias dshell='~/shortcut/scripts/dshell.sh' # get a shell into a docker container

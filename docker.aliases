@@ -1,0 +1,3 @@
+alias dclean_force='docker rmi -f $(docker images -f "dangling=false" -q)'
+alias dclean='docker stop $(docker ps -a -q); docker rm $(docker ps -a -q); docker rmi $(docker images -q)'
+alias dclean_some='docker rmi $(docker images -a | grep -v openjdk | awk "{if (NR>1) print $3}")'q
