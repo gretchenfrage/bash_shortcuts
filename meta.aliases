@@ -1,3 +1,4 @@
 alias short_ls='bash ~/shortcut/shortcut_ls.sh'
 alias short_read='bash ~/shortcut/shortcut_read.sh'
 alias short_edit='bash ~/shortcut/shortcut_edit.sh'
+alias hw='echo "hello world"'
