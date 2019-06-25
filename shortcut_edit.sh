@@ -58,3 +58,5 @@ echo ""
 
 git commit -m "shortcut  scripted commit rand=${RANDOM}" || exit 1
 git push -u origin HEAD || exit 1
+
+echo "done"
