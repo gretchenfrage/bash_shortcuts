@@ -1,2 +1,3 @@
 alias editrc='vim ~/.bash_profile'
 alias sourceshell='source ~/.bash_profile'
+alias finder='open .'
