@@ -20,11 +20,9 @@ case "${unameOut}" in
 esac
 
 if [[ "${machine}" = "Linux" ]]; then
-  echo "linux detected!"
   source ~/shortcut/linux_shell.aliases
 fi
 
 if [[ "${machine}" = "Mac" ]]; then
-  echo "mac detected!"
   source ~/shortcut/mac_shell.aliases
 fi
