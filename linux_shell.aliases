@@ -1,0 +1,6 @@
+# linux-specific
+alias editrc='vim ~/.bashrc'
+alias sourceshell='source ~/.bashrc'
+#alias finder='xdg-open . &'
+alias finder='xdg-open . > /dev/null 2>&1 &'
+alias lsdaemon='service --status-all'
