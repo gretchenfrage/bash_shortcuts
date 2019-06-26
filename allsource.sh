@@ -26,3 +26,9 @@ fi
 if [[ "${machine}" = "Mac" ]]; then
   source ~/shortcut/mac_shell.aliases
 fi
+
+# source the notes system, if existent in this environment
+FILE=~/notes/shell/notes.aliases
+if [[ -f "${FILE}" ]]; then
+  source ${FILE}
+fi

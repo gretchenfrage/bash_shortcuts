@@ -6,7 +6,7 @@ SCRIPT_DIR=$(cd -P -- "$(dirname -- "$0")" && pwd -P)
 cd "${SCRIPT_DIR}"
 
 [[ ! -z "${1}" ]] || (
-    echo "error: args = [shortcut entry names]"
+    echo "error: args = [shortcut entry name]"
     exit 1
 ) || exit 1
 
