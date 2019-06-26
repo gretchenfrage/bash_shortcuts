@@ -1,6 +1,8 @@
 alias kshell='~/shortcut/scripts/kshell.sh' # get a shell into kubernetes pod
 alias dshell='~/shortcut/scripts/dshell.sh' # get a shell into a docker container
 
+alias gcp_login='gcloud init' # change active gcloud account
+
 ## config admin stuff, example:
 # cat $HOME/.kube/config
 # kubectl config use-context gke_c1-datalab_us-central1-a_datalab-manager

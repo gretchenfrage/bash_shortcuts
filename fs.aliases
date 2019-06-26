@@ -1,1 +1,3 @@
 alias bashexec='chmod -R u=rwx,g=rX,o=rX *.sh' # give execute permission to .sh
+alias ls_size='ls -l --block-size=M'
+alias ls_size_g='ls -l --block-size=G'

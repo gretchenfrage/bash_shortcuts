@@ -23,3 +23,5 @@ chmod -R u=rwX,g=rX,o=rX .
 
 # finally, mark all bash scripts as executable
 chmod -R u=rwx,g=rX,o=rX *.sh
+cd scripts
+chmod -R u=rwx,g=rX,o=rX *.sh

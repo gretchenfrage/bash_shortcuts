@@ -1,11 +1,11 @@
 alias gatus='git status'
-alias gall='git add -A * && git add .gitignore'
+# the op staging command
+alias gall='(git add -A * && (if [[ -f ".gitignore" ]]; then git add .gitignore; fi) && ([[ -z "$(git ls-files --deleted)" ]] || git rm $(git ls-files --deleted)))'
 alias gammit='git commit -m'
 alias gush='git push -u origin HEAD'
 alias getch='git fetch'
 alias gull='git pull origin HEAD'
 alias gerge='git pull origin '
-#alias glone='git clone '
 alias glone='~/shortcut/scripts/glone.sh' # clone recursive
 alias gattaca='echo "note to self: eugenics is bad"'
 alias geckout='git checkout '

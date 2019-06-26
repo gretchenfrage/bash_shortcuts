@@ -25,8 +25,8 @@ echo ""
 
 echo "Doing the git stuff..."
 
-git add -A * || exit 1
-git add .gitignore || true
+# the op staging command
+(git add -A * && (if [[ -f ".gitignore" ]]; then git add .gitignore; fi) && ([[ -z "$(git ls-files --deleted)" ]] || git rm $(git ls-files --deleted))) || exit 1
 
 echo "=== git status, post-stage ==="
 git status || exit 1
@@ -44,7 +44,7 @@ else
 fi
 echo ""
 
-git commit -m "shortcut  scripted commit rand=${RANDOM}" || exit 1
+git commit -m "shortcut scripted commit rand=${RANDOM}" || exit 1
 git push -u origin HEAD || exit 1
 
 echo ""
