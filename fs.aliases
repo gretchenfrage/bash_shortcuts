@@ -1,0 +1,1 @@
+alias bashexec='chmod -R u=rwx,g=rX,o=rX *.sh' # give execute permission to .sh
