@@ -15,4 +15,5 @@ alias gitattr='git config --global core.attributesfile ~/.gitattributes'
 alias giff='git diff'
 alias branchls='git branch -a'
 alias whathappen='git diff --cached'
+alias git_bleach='git clean -fd'
 
