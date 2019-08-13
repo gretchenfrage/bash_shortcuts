@@ -16,4 +16,5 @@ alias giff='git diff'
 alias branchls='git branch -a'
 alias whathappen='git diff --cached'
 alias git_bleach='git clean -fd'
+alias guncommit='git reset HEAD~'
 
