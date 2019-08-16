@@ -17,4 +17,5 @@ alias branchls='git branch -a'
 alias whathappen='git diff --cached'
 alias git_bleach='git clean -fd'
 alias getwork='git log --graph --decorate --pretty=oneline --abbrev-commit'
+alias guncommit='git reset HEAD~'
 
