@@ -19,4 +19,4 @@ alias git_bleach='git clean -fd'
 alias getwork-b='git log --graph --decorate --pretty=oneline --abbrev-commit'
 alias getwork-a='git log --graph --decorate --pretty=oneline --abbrev-commit --branches'
 alias guncommit='git reset HEAD~'
-alias glog="git log --format=\'%C(auto)%h %f\'"
+alias glog="git log --format=\'%C\(auto\)%h %f\'"
