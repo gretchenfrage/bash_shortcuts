@@ -1,7 +1,7 @@
 alias gatus='git status'
 # the op staging command
 # alias gall='(git add -A * && (if [[ -f ".gitignore" ]]; then git add .gitignore; fi) && ([[ -z "$(git ls-files --deleted)" ]] || git rm $(git ls-files --deleted)))'
-alias gall='git add -A *; git add .gitignore;"
+alias gall='git add -A *; git add .gitignore 2>/dev/null || true;'
 alias gammit='git commit -m'
 alias gush='git push -u origin HEAD'
 alias getch='git fetch'
