@@ -7,6 +7,7 @@ source ~/shortcut/devops.aliases
 source ~/shortcut/docker.aliases
 source ~/shortcut/gortcut.aliases
 source ~/shortcut/fs.aliases
+source ~/shortcut/shell.aliases
 
 # os-specific
 # see: https://stackoverflow.com/questions/3466166/how-to-check-if-running-in-cygwin-mac-or-linux
