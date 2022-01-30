@@ -8,6 +8,7 @@ source ~/shortcut/docker.aliases
 source ~/shortcut/gortcut.aliases
 source ~/shortcut/fs.aliases
 source ~/shortcut/shell.aliases
+source ~/shortcut/remarkable.aliases
 
 # os-specific
 # see: https://stackoverflow.com/questions/3466166/how-to-check-if-running-in-cygwin-mac-or-linux
