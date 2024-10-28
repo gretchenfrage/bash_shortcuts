@@ -23,6 +23,7 @@ esac
 
 if [[ "${machine}" = "Linux" ]]; then
   source ~/shortcut/linux_shell.aliases
+  source ~/shortcut/net.aliases
 fi
 
 if [[ "${machine}" = "Mac" ]]; then

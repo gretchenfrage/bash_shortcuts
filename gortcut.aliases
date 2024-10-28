@@ -21,3 +21,5 @@ alias getwork-b='git log -n 26 --graph --decorate --pretty=oneline --abbrev-comm
 alias getwork-a='git log -n 26 --graph --decorate --pretty=oneline --abbrev-commit --branches'
 alias guncommit='git reset HEAD~'
 alias glog="git log -n 26 --format='* %C(auto)%h %f'"
+
+alias preamble='~/shortcut/scripts/preamble.sh'
