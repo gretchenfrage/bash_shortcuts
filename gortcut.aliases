@@ -23,3 +23,6 @@ alias guncommit='git reset HEAD~'
 alias glog="git log -n 26 --format='* %C(auto)%h %f'"
 
 alias preamble='~/shortcut/scripts/preamble.sh'
+# https://github.com/rust-lang/cargo/issues/13873#issuecomment-2284833685'
+alias msrvlockgen='CARGO_RESOLVER_INCOMPATIBLE_RUST_VERSIONS=fallback cargo +nightly -Zmsrv-policy generate-lockfile'
+
